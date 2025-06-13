@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-api-ormawa
+    env: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    branch: main
+    repo: Barnadi-77/api_ormawa
